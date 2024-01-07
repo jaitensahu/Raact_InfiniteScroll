@@ -5,7 +5,7 @@ const Image=(props)=>{
     <div className="singleImgContainer">
         <img src={props.data.urls.full} alt="" />
         <div className="screen"></div>
-        <div className="text">{props.data.alt_description}</div>
+        <div className="text">{props.data.alt_description.toUpperCase()}</div>
     </div>
     </>
 }
